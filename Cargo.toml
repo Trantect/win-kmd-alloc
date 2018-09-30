@@ -1,0 +1,8 @@
+[package]
+name = "win-kmd-alloc"
+version = "0.1.0"
+authors = ["Harry Fei <tiziyuanfang@gmail.com>"]
+
+[build-dependencies]
+winreg = "0.5"
+failure = {version = "0.1.2", default-features = false, features = ["std"]}
